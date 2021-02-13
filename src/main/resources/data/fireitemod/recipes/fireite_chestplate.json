@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "III",
+    "I I",
     "III",
     "III"
   ],
@@ -11,7 +11,7 @@
     }
   },
   "result": {
-    "item": "fireitemod:fireite_block"
+    "item": "fireitemod:fireite_chestplate"
   },
-  "count": 10
+  "count": 1
 }

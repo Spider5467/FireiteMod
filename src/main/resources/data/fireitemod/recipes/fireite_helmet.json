@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "III",
-    "III",
-    "III"
+    "I I"
   ],
   "key": {
     "I": {
@@ -11,7 +10,7 @@
     }
   },
   "result": {
-    "item": "fireitemod:fireite_block"
+    "item": "fireitemod:fireite_helmet"
   },
-  "count": 10
+  "count": 1
 }
