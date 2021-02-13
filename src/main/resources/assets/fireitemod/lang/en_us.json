@@ -2,6 +2,9 @@
   "block.fireitemod.fireite_ore": "Fireite Ore",
   "block.fireitemod.fireite_block": "Fireite Block",
   "item.fireitemod.fireite_ingot": "Fireite Ingot",
-  "itemGroup.fireitemod.fireite_items": "Fireite Items"
-
+  "itemGroup.fireitemod.fireite_items": "Fireite Items",
+  "item.fireitemod.fireite_helmet": "Fireite Helmet",
+  "item.fireitemod.fireite_chestplate": "Fireite Chestplate",
+  "item.fireitemod.fireite_leggings": "Fireite Leggings",
+  "item.fireitemod.fireite_boots": "Fireite Boots"
 }
