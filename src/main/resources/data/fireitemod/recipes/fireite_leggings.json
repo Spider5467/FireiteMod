@@ -1,18 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-
-  "pattern":
-  [
+  "pattern": [
     "III",
     "I I",
     "I I"
   ],
-
-  "key":
-  {
-    "I": { "item": "fireitemod:fireite_ingot" }
+  "key": {
+    "I": {
+      "item": "fireitemod:fireite_ingot"
+    }
   },
-
-  "result": { "item": "fireitemod:fireite_leggings" },
+  "result": {
+    "item": "fireitemod:fireite_leggings"
+  },
   "count": 10
 }

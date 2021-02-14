@@ -1,17 +1,16 @@
 {
-  "type": "minecraft:crafting_shapeless",
-
-  "pattern":
-  [
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
     "I I",
     "I I"
   ],
-
-  "key":
-  {
-    "I": { "item": "fireitemod:fireite_ingot" }
+  "key": {
+    "I": {
+      "item": "fireitemod:fireite_ingot"
+    }
   },
-
-  "result": { "item": "fireitemod:fireite_block" },
-  "count": 10
+  "result": {
+    "item": "fireitemod:fireite_boots"
+  },
+  "count": 1
 }
