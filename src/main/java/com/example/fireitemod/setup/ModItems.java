@@ -22,10 +22,8 @@ public class ModItems {
     public static final RegistryObject<Item> FIREITE_SWORD = Registration.ITEMS.register("fireite_sword",  () ->
             new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS).isImmuneToFire()));
     public static final RegistryObject<Item> FIREITE_PICKAXE = Registration.ITEMS.register("fireite_pickaxe", FireitePickaxeModel::new);
-    public static final RegistryObject<Item> FIREITE_AXE = Registration.ITEMS.register("fireite_axe", () ->
-            new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS).isImmuneToFire()));
-    public static final RegistryObject<Item> FIREITE_SHOVEL = Registration.ITEMS.register("fireite_shovel", () ->
-            new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS).isImmuneToFire()));
+    public static final RegistryObject<Item> FIREITE_AXE = Registration.ITEMS.register("fireite_axe", FireiteAxeModel::new);
+    public static final RegistryObject<Item> FIREITE_SHOVEL = Registration.ITEMS.register("fireite_shovel", FireiteShovelModel::new);
     public static void initialize() {
     }
 }

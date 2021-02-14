@@ -11,7 +11,6 @@ public class FireitePickaxeModel extends PickaxeItem {
 
 
     public static IItemTier FireiteTier = new IItemTier() {
-        private IItemProvider repairMaterial;
 
         @Override
         public int getMaxUses() {
