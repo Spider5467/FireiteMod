@@ -1,11 +1,12 @@
 package com.example.fireitemod.setup;
 
-import net.minecraft.item.*;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.Rarity;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraftforge.common.ToolType;
 
-public class FireiteAxeModel extends AxeItem {
-
+public class FireiteSwordModel extends SwordItem {
 
     public static IItemTier Fireite1tier = new IItemTier() {
 
@@ -22,12 +23,12 @@ public class FireiteAxeModel extends AxeItem {
 
         @Override
         public float getAttackDamage() {
-            return 100;
+            return 1000;
         }
 
         @Override
         public int getHarvestLevel() {
-            return 100;
+            return 0;
         }
 
         @Override
@@ -36,16 +37,13 @@ public class FireiteAxeModel extends AxeItem {
         }
 
         @Override
-        public Ingredient getRepairMaterial() {
-            return Ingredient.fromItems(ModItems.FIREITE_INGOT.get());
-        }
+        public Ingredient getRepairMaterial() {return Ingredient.fromItems(ModItems.FIREITE_INGOT.get()); }
     };
 
-    public FireiteAxeModel() {
+    public FireiteSwordModel() {
         super(Fireite1tier, Fireite1tier.getMaxUses(), 9, new Properties()
                 .group(ModItemGroups.FIREITE_ITEMS)
-                .maxStackSize(1).maxDamage(100)
-                .addToolType(ToolType.AXE, Fireite1tier.getHarvestLevel())
+                .maxStackSize(1).maxDamage(1000)
                 .isImmuneToFire()
                 .rarity(Rarity.EPIC)
         );
