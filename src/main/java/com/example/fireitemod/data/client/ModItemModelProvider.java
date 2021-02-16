@@ -24,7 +24,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         registerItem(ModItems.FIREITE_CHESTPLATE.getId().getPath());
         registerItem(ModItems.FIREITE_LEGGINGS.getId().getPath());
         registerItem(ModItems.FIREITE_BOOTS.getId().getPath());
+<<<<<<< HEAD
         registerItem(ModItems.FIREITE_ARMOR.getId().getPath());
+=======
+        registerItem(ModItems.FIREITE_SWORD.getId().getPath());
+        registerItem(ModItems.FIREITE_PICKAXE.getId().getPath());
+        registerItem(ModItems.FIREITE_AXE.getId().getPath());
+        registerItem(ModItems.FIREITE_SHOVEL.getId().getPath());
+>>>>>>> 7d861fce0f3eb3d40441b0fd72db167deb8ca088
     }
 
     private void registerItem(String path_name) {

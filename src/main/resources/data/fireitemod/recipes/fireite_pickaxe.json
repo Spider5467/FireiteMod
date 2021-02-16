@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BNB",
+    " R ",
+    " R "
+  ],
+  "key": {
+    "B": {
+      "item": "fireitemod:fireite_block"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "R": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "fireitemod:fireite_pickaxe",
+    "count": 1
+  }
+}
