@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "III",
+    "I I"
+  ],
+
+  "key":
+  {
+    "I": { "item": "fireitemod:fireite_ingot" }
+  },
+
+  "result": {
+    "item": "fireitemod:fireite_helmet",
+    "count": 1
+  }
+}

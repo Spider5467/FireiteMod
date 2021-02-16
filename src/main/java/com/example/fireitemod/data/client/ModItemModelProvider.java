@@ -20,6 +20,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         ModSimpleBlocks.ALL_SIMPLE_BLOCKS.forEach(sb -> registerBlock(sb.getId().getPath()));
         registerItem(ModItems.FIREITE_INGOT.getId().getPath());
+        registerItem(ModItems.FIREITE_HELMET.getId().getPath());
+        registerItem(ModItems.FIREITE_CHESTPLATE.getId().getPath());
+        registerItem(ModItems.FIREITE_LEGGINGS.getId().getPath());
+        registerItem(ModItems.FIREITE_BOOTS.getId().getPath());
+        registerItem(ModItems.FIREITE_ARMOR.getId().getPath());
     }
 
     private void registerItem(String path_name) {
