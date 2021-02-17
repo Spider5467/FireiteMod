@@ -8,20 +8,7 @@ import net.minecraftforge.fml.RegistryObject;
 
 public class ModItems {
 
-
     public static final RegistryObject<Item> FIREITE_INGOT = Registration.ITEMS.register("fireite_ingot", () ->
-<<<<<<< HEAD
-            new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS)));
-    public static final RegistryObject<Item> FIREITE_HELMET = Registration.ITEMS.register("fireite_helmet", () ->
-            new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS)));
-    public static final RegistryObject<Item> FIREITE_CHESTPLATE = Registration.ITEMS.register("fireite_chestplate", () ->
-            new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS)));
-    public static final RegistryObject<Item> FIREITE_LEGGINGS = Registration.ITEMS.register("fireite_leggings", () ->
-            new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS)));
-    public static final RegistryObject<Item> FIREITE_BOOTS = Registration.ITEMS.register("fireite_boots", () ->
-            new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS)));
-
-=======
             new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS).isImmuneToFire()));
     public static final RegistryObject<Item> FIREITE_HELMET = Registration.ITEMS.register("fireite_helmet", () ->
             new ArmorItem(ArmorMaterialList.fireite, EquipmentSlotType.HEAD, new ArmorItem.Properties().group(ModItemGroups.FIREITE_ITEMS).isImmuneToFire()));
@@ -35,7 +22,6 @@ public class ModItems {
     public static final RegistryObject<Item> FIREITE_PICKAXE = Registration.ITEMS.register("fireite_pickaxe", FireitePickaxeModel::new);
     public static final RegistryObject<Item> FIREITE_AXE = Registration.ITEMS.register("fireite_axe", FireiteAxeModel::new);
     public static final RegistryObject<Item> FIREITE_SHOVEL = Registration.ITEMS.register("fireite_shovel", FireiteShovelModel::new);
->>>>>>> 7d861fce0f3eb3d40441b0fd72db167deb8ca088
     public static void initialize() {
     }
 }

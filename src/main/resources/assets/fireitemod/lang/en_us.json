@@ -4,11 +4,8 @@
   "item.fireitemod.fireite_ingot": "Fireite Ingot",
   "itemGroup.fireitemod.fireite_items": "Fireite Items",
   "item.fireitemod.fireite_helmet": "Fireite Helmet",
-<<<<<<< HEAD
   "item.fireitemod.fireite_leggings": "Fireite Leggings",
   "item.fireitemod.fireite_boots": "Fireite Boots",
-  "item.fireitemod.fireite_chestplate": "Fireite Chestplate"
-=======
   "item.fireitemod.fireite_chestplate": "Fireite Chestplate",
   "item.fireitemod.fireite_leggings": "Fireite Leggings",
   "item.fireitemod.fireite_boots": "Fireite Boots",
@@ -16,5 +13,4 @@
   "item.fireitemod.fireite_pickaxe": "Fireite Pickaxe",
   "item.fireitemod.fireite_axe": "Fireite Axe",
   "item.fireitemod.fireite_shovel": "Fireite Shovel"
->>>>>>> 7d861fce0f3eb3d40441b0fd72db167deb8ca088
 }
