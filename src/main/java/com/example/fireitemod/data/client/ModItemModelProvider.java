@@ -1,5 +1,6 @@
 package com.example.fireitemod.data.client;
 
+import com.example.fireitemod.setup.FireiteDragonEgg;
 import com.example.fireitemod.setup.ModItems;
 import com.example.fireitemod.setup.blocks.ModSimpleBlocks;
 import net.minecraft.data.DataGenerator;
@@ -28,6 +29,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         registerItem(ModItems.FIREITE_PICKAXE.getId().getPath());
         registerItem(ModItems.FIREITE_AXE.getId().getPath());
         registerItem(ModItems.FIREITE_SHOVEL.getId().getPath());
+        registerItem(FireiteDragonEgg.FIREITE_DRAGON_EGG.getId().getPath());
     }
 
     private void registerItem(String path_name) {
