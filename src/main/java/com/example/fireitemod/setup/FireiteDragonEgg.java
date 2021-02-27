@@ -11,7 +11,7 @@ import net.minecraftforge.fml.RegistryObject;
 public class FireiteDragonEgg
 {
     public static EntityType<?> FIREITE_DRAGON_EGG_ENTITY_TYPE;
-    public static RegistryObject<Item> FIREITE_DRAGON_EGG = registerEntitySpawnEgg(FIREITE_DRAGON_EGG_ENTITY_TYPE, 0xff0000, 0xfc8c03);
+    public static RegistryObject<Item> FIREITE_DRAGON_EGG = registerEntitySpawnEgg(FIREITE_DRAGON_EGG_ENTITY_TYPE, 0xfc8c03, 0xfc8c03);
 
     public static RegistryObject<Item> registerEntitySpawnEgg(EntityType<?> type, int color1, int color2)
     {
