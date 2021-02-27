@@ -1,10 +1,28 @@
 {
   "type": "minecraft:crafting_shaped",
+<<<<<<< HEAD
+
+  "pattern":
+  [
+=======
   "pattern": [
+>>>>>>> 7d861fce0f3eb3d40441b0fd72db167deb8ca088
     "III",
     "I I",
     "I I"
   ],
+<<<<<<< HEAD
+
+  "key":
+  {
+    "I": { "item": "fireitemod:fireite_ingot" }
+  },
+
+  "result": {
+    "item": "fireitemod:fireite_leggings",
+    "count": 1
+  }
+=======
   "key": {
     "I": {
       "item": "fireitemod:fireite_ingot"
@@ -14,4 +32,5 @@
     "item": "fireitemod:fireite_leggings"
   },
   "count": 10
+>>>>>>> 7d861fce0f3eb3d40441b0fd72db167deb8ca088
 }

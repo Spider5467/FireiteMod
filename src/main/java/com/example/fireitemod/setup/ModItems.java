@@ -8,7 +8,6 @@ import net.minecraftforge.fml.RegistryObject;
 
 public class ModItems {
 
-
     public static final RegistryObject<Item> FIREITE_INGOT = Registration.ITEMS.register("fireite_ingot", () ->
             new Item(new Item.Properties().group(ModItemGroups.FIREITE_ITEMS).isImmuneToFire()));
     public static final RegistryObject<Item> FIREITE_HELMET = Registration.ITEMS.register("fireite_helmet", () ->
