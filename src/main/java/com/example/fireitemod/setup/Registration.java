@@ -1,6 +1,7 @@
 package com.example.fireitemod.setup;
 
 import net.minecraft.block.Block;
+import net.minecraft.entity.Entity;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -19,6 +20,7 @@ public class Registration {
         ModItems.initialize();
         ModBlocks.initialize();
         ModItemGroups.initialize();
+        FireiteDragonEgg.initialize();
     }
 
 }
